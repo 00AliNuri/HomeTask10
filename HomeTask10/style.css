@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+img{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    animation: dvdanimation 11s infinite;
+    animation-delay: 2s;
+}
+
+@keyframes dvdanimation {
+    0%   {
+        top: 0px; left: 0px;
+    }
+    15%  {
+        top: 100px; left: 1200px; filter: invert(32%) sepia(73%) saturate(1152%) hue-rotate(57deg) brightness(119%)
+    }
+    25%  {
+        top: 800px; left: 0px; filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%)
+    }
+    35%  {
+        top: 0px; left: 1200px; filter: invert(32%) sepia(73%) saturate(1152%) hue-rotate(57deg) brightness(119%)
+    }
+    45%  {
+        top: 730px; left: 1200px; filter: invert(32%) sepia(73%) saturate(1152%) hue-rotate(57deg) brightness(119%)
+    }
+    50%  {
+        top: 0px; left: 1300px; filter: invert(32%) sepia(13%) saturate(652%) hue-rotate(37deg) brightness(119%)
+    }
+    60%  {top: 0px; left: 900px; filter: invert(92%) sepia(93%) saturate(952%) hue-rotate(27deg) brightness(119%)}
+    65%  {
+        top: 600px; left: 1000px; filter: invert(12%) sepia(53%) saturate(852%) hue-rotate(17deg) brightness(119%)
+    }
+    75%  {
+        top: 840px; right: 0px;
+    }
+    85%  {
+        top: 800px; left: 10px; filter: invert(12%) sepia(53%) saturate(852%) hue-rotate(17deg) brightness(119%)
+    }
+    95%  {
+        top: 530px; left: 230px; filter: invert(12%) sepia(53%) saturate(852%) hue-rotate(17deg) brightness(119%)
+    }
+    100% {
+        top: 0px; left: 870px;
+    }
+  }
